@@ -42,10 +42,11 @@ form input{
     border-radius: 10px;
     border:0px;
     margin:5px 0px 20px 0px;
+    padding-left: 10px;
 }
 
 form input::placeholder{
-    padding:10px;
+    padding:10px 10px 10px 0px
 }
 
 form input#submit{
@@ -56,6 +57,12 @@ form input#submit{
     font-size: 15px;
     cursor: pointer;
 }
+
+form input#submit:hover{
+    background-color: #1064d3;
+
+}
+
 
 @media screen and (max-width:480px){
     form{
